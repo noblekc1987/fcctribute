@@ -1,0 +1,79 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+    color: rgb(99, 121, 121);
+}
+#fcc-header {
+    background-color:whitesmoke;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 3px 5px 0px;
+    padding: 5px 5px 5px 5px;
+    top: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+#fcc-logo {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+}
+#fcc-title {
+    color: darkgreen;
+    line-height: 0.1rem;
+    text-align: left;
+    padding: 2px 5px 5px 5px;
+}
+.tribute-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 0px;
+    padding: 5px 5px 5px 5px;
+}
+#quincy-larson {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+}
+#about-fcc {
+    text-align: justify;
+    padding: 5px 5px 5px 5px;
+}
+#testimony {
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 2px 0px;
+    margin-top: 0px;
+    padding: 0px 5px 5px 5px;
+}
+#fcc-links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-self: center;
+    padding: 0px 5px 5px 5px;
+    
+    
+}
+.footer-img {
+    height: 30px;
+    width: auto;
+    padding: 0px 5px 0px 0px;
+    justify-self: center;
+    vertical-align: middle;
+}
